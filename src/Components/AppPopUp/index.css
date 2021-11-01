@@ -1,0 +1,46 @@
+.rules-btn {
+  border: none;
+  background-color: #ffffff;
+  border-radius: 10px;
+  color: #223a5f;
+  height: 45px;
+  width: 110px;
+  font-family: 'Bree Serif';
+  font-size: 22px;
+  font-weight: 500;
+  cursor: pointer;
+}
+@media screen and (max-width: 767px) {
+  .rules-btn {
+    width: 90px;
+    height: 40px;
+  }
+}
+.popup-content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.popup-content {
+  width: 70%;
+  height: 512px;
+}
+@media screen and (max-width: 767px) {
+  .popup-content {
+    width: 90%;
+    height: 390px;
+  }
+}
+.button-container {
+  align-self: flex-end;
+}
+.rule-image {
+  height: 440px;
+  width: 80%;
+}
+@media screen and (max-width: 767px) {
+  .rule-image {
+    height: 320px;
+    width: 95%;
+  }
+}
